@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Poppins',sans-serif;
+  overflow-x:hidden;
+  height:100vh;
+  background-image: linear-gradient(to bottom, #ebcdfc, #fdcdec, #ffd0de, #ffd5d4, #ffdcd0, #ffdccf, #ffdcce, #ffdccd, #ffd5ce, #ffced5, #ffc9e0, #ffc6ef);
+}
+.content_wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0 auto;
+}
+.card_bg{
+  background: url(Glassmorphism-Background.png);
+  background-size:cover;
+  padding:2rem;
+  width:310px;
+  height:640px;
+  background-color:#eee;
+}
+.card{
+  cursor:pointer;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1.5rem;
+  height:105px;
+  border-radius:30px;
+  margin:15px 0;
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 16.5px );
+  -webkit-backdrop-filter: blur( 16.5px );
+  border-radius: 30px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+sup{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+.location{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #000;
+}
+.degree{
+  font-size: 28px;
+  line-height: 10px;
+  text-transform: capitalize;
+  color: #23226B;
+}
+.weather-status{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color:#ffad1c;
+  margin-top: 15px;
+}
+.card-image img{
+  width:100px;
+  height:100px;
+}
